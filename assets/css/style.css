@@ -251,11 +251,13 @@
 .hero-area {
     background: url(../images/home1/hero-bg-1.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    /* background-position: center center;
+    background-size: cover; */
     height: 950px;
     padding-top: 125px;
     position: relative;
+background-size:contain;
+background-position:center;
 }
 
 .hero-style.hero-area{
@@ -8759,10 +8761,14 @@ p.blog-list-desc {
    <!--Echofy Strat Hero Area home Seven  Css-->
 =========================================================---*/
 .hero-area.home-seven {
-    background: url(../images/event/w4.jpeg);
+    
+    background: url(../images/event/w4.jpeg), yellowgreen;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    /* background-size: cover;
+    background-position: center center; */
+   
+background-size:contain;
+background-position:center;
     padding: 0;
     height: 800px;
 }
