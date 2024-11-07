@@ -8759,7 +8759,7 @@ p.blog-list-desc {
    <!--Echofy Strat Hero Area home Seven  Css-->
 =========================================================---*/
 .hero-area.home-seven {
-    background: url(../images/event/861135.png);
+    background: url(../images/event/w4.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -8769,6 +8769,7 @@ p.blog-list-desc {
 
 .home-seven .hero-content {
     position: relative;
+    color: #fff !important;
 }
 
 .home-seven .hero-content h4 {
