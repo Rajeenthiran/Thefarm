@@ -8764,14 +8764,12 @@ p.blog-list-desc {
     
     background: url(../images/event/w4.jpeg), yellowgreen;
     background-repeat: no-repeat;
-    /* background-size: cover;
-    background-position: center center; */
-   
-background-size:contain;
-background-position:center;
+    background-size:contain;
+    background-position:center;
     padding: 0;
     height: 800px;
 }
+
 
 .home-seven .hero-content {
     position: relative;
@@ -10154,3 +10152,15 @@ ul.social-box li a:hover {
   
   }
   
+
+  @media only screen and (max-width: 600px) {
+    .hero-area.home-seven {
+    
+        background: url(../images/event/W5_MOBILE.png), yellowgreen;
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position:center;
+        padding: 0;
+        height: 800px;
+    }
+  }
